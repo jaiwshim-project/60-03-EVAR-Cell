@@ -507,9 +507,9 @@
 <aside class="sidebar" id="sidebar">
     <button class="toggle-btn" id="toggleBtn" title="사이드바 접기/펼치기">◀</button>
     <div class="sidebar-header">
-        <span class="sidebar-logo-icon">🧬</span>
+        <img src="../에바셀-removebg-preview.png" alt="E-VAR Cell Logo" style="width:28px;height:28px;flex-shrink:0;">
         <div class="sidebar-logo">
-            RegenMed<span class="highlight">Consulting</span>
+            E-VAR<span class="highlight">Cell</span>
             <span class="sub">사용자 매뉴얼</span>
         </div>
     </div>
@@ -534,12 +534,13 @@
             </div>
         </div>
 
+
         <!-- 통합 솔루션 -->
         <div class="nav-section">
             <div class="nav-item" data-url="philosophy.html" data-label="통합 솔루션" data-section="통합 솔루션">
                 <span class="nav-icon">🔗</span>
                 <span class="nav-label">통합 솔루션</span>
-                <span class="nav-badge">4개</span>
+                <span class="nav-badge">5개</span>
             </div>
             <div class="nav-sub-item" data-url="philosophy.html" data-label="차별화 철학" data-section="통합 솔루션">
                 <span class="sub-dot"></span>
@@ -552,6 +553,10 @@
             <div class="nav-sub-item" data-url="prp-prf.html" data-label="PRP + PRF 기술" data-section="통합 솔루션">
                 <span class="sub-dot"></span>
                 <span class="nav-label">PRP + PRF 기술</span>
+            </div>
+            <div class="nav-sub-item" data-url="svf-evar.html" data-label="SVF + E-VAR 기술" data-section="통합 솔루션">
+                <span class="sub-dot"></span>
+                <span class="nav-label">SVF + E-VAR 기술</span>
             </div>
             <div class="nav-sub-item" data-url="sop.html" data-label="SOP 패키지" data-section="통합 솔루션">
                 <span class="sub-dot"></span>
@@ -597,19 +602,37 @@
             </div>
         </div>
 
-        <!-- 단독 메뉴 -->
+
+        <!-- 프로세스 -->
         <div class="nav-section">
-            <div class="nav-item" data-url="process.html" data-label="프로세스" data-section="단독 메뉴">
+            <div class="nav-item" data-url="process.html" data-label="프로세스" data-section="프로세스">
                 <span class="nav-icon">📋</span>
                 <span class="nav-label">프로세스</span>
+                <span class="nav-badge">3개</span>
             </div>
-            <div class="nav-item" data-url="requirements.html" data-label="시설요건" data-section="단독 메뉴">
-                <span class="nav-icon">🏗️</span>
+            <div class="nav-sub-item" data-url="process.html" data-label="컨설팅 프로세스" data-section="프로세스">
+                <span class="sub-dot"></span>
+                <span class="nav-label">컨설팅 프로세스</span>
+            </div>
+            <div class="nav-sub-item" data-url="sop-guide.html" data-label="표준작업지침서" data-section="프로세스">
+                <span class="sub-dot"></span>
+                <span class="nav-label">표준작업지침서</span>
+            </div>
+            <div class="nav-sub-item" data-url="requirements.html" data-label="시설요건" data-section="프로세스">
+                <span class="sub-dot"></span>
                 <span class="nav-label">시설요건</span>
             </div>
-            <div class="nav-item" data-url="contact.html" data-label="문의하기" data-section="단독 메뉴">
+        </div>
+
+        <!-- 기타 -->
+        <div class="nav-section">
+            <div class="nav-item" data-url="contact.html" data-label="무료상담" data-section="기타">
                 <span class="nav-icon">📞</span>
-                <span class="nav-label">문의하기</span>
+                <span class="nav-label">무료상담</span>
+            </div>
+            <div class="nav-item" data-url="news.html" data-label="기사 보기" data-section="기타">
+                <span class="nav-icon">📰</span>
+                <span class="nav-label">기사 보기</span>
             </div>
         </div>
 
@@ -662,43 +685,52 @@
         <!-- 웰컴 화면 -->
         <div class="welcome-screen" id="welcomeScreen">
             <div class="welcome-icon">📖</div>
-            <h1 class="welcome-title">RegenMed<span>Consulting</span><br>사용자 매뉴얼</h1>
-            <img src="리젠메드 메뉴.jpg" alt="리젠메드컨설팅 네비게이션 메뉴" style="max-width:100%;border-radius:8px;box-shadow:0 4px 16px rgba(0,0,0,0.15);margin-bottom:16px;">
+            <h1 class="welcome-title">E-VAR<span>Cell</span><br>사용자 매뉴얼</h1>
             <p class="welcome-desc">
+                첨단재생의료 실시기관 인허가 전문 컨설팅<br>
                 왼쪽 메뉴에서 페이지를 선택하면<br>
-                해당 페이지를 바로 확인할 수 있습니다.<br>
-                아래 빠른 링크에서 바로 이동해 보세요.
+                해당 페이지를 바로 확인할 수 있습니다.
             </p>
             <div class="quick-nav" id="quickNav">
                 <div class="quick-card" onclick="loadPage('../index.html', '랜딩 페이지', '홈')">
                     <div class="qc-icon">🏠</div>
                     <div class="qc-title">랜딩 페이지</div>
-                    <div class="qc-desc">메인 홈 화면</div>
+                    <div class="qc-desc">메인 홈</div>
                 </div>
                 <div class="quick-card" onclick="loadPage('why-us.html', '왜 우리인가', '메뉴')">
                     <div class="qc-icon">💡</div>
                     <div class="qc-title">왜 우리인가</div>
-                    <div class="qc-desc">컨설팅 차별점</div>
+                    <div class="qc-desc">차별점</div>
                 </div>
                 <div class="quick-card" onclick="loadPage('philosophy.html', '통합 솔루션', '통합 솔루션')">
                     <div class="qc-icon">🔗</div>
                     <div class="qc-title">통합 솔루션</div>
-                    <div class="qc-desc">4개 서브페이지</div>
+                    <div class="qc-desc">5개 서브페이지</div>
                 </div>
-                <div class="quick-card" onclick="loadPage('kimjaeryong.html', '김재룡성형외과', '서비스')">
-                    <div class="qc-icon">🏥</div>
-                    <div class="qc-title">김재룡성형외과</div>
-                    <div class="qc-desc">줄기세포센터</div>
+                <div class="quick-card" onclick="loadPage('services.html', '서비스', '서비스')">
+                    <div class="qc-icon">⚙️</div>
+                    <div class="qc-title">서비스</div>
+                    <div class="qc-desc">전문 컨설팅</div>
                 </div>
                 <div class="quick-card" onclick="loadPage('nkcl.html', '파트너', '파트너')">
                     <div class="qc-icon">🤝</div>
                     <div class="qc-title">파트너</div>
                     <div class="qc-desc">NKCL·ExVAR</div>
                 </div>
-                <div class="quick-card" onclick="loadPage('process.html', '프로세스', '단독 메뉴')">
+                <div class="quick-card" onclick="loadPage('process.html', '프로세스', '프로세스')">
                     <div class="qc-icon">📋</div>
                     <div class="qc-title">프로세스</div>
-                    <div class="qc-desc">진행 절차</div>
+                    <div class="qc-desc">절차 안내</div>
+                </div>
+                <div class="quick-card" onclick="loadPage('contact.html', '무료상담', '기타')">
+                    <div class="qc-icon">📞</div>
+                    <div class="qc-title">무료상담</div>
+                    <div class="qc-desc">문의하기</div>
+                </div>
+                <div class="quick-card" onclick="loadPage('news.html', '기사 보기', '기타')">
+                    <div class="qc-icon">📰</div>
+                    <div class="qc-title">기사 보기</div>
+                    <div class="qc-desc">뉴스</div>
                 </div>
             </div>
         </div>
